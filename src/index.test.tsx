@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { PubSub } from './components/PubSub'
 
 describe('ExampleComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(PubSub).toBeTruthy()
   })
 })
